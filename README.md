@@ -10,11 +10,12 @@ This repository contains a CRM chatbot system for ALPL with:
 ## 🗂️ Folder Structure
 
 
-├── admin
-│ ├── admin-client # Admin login and form viewer (reads from Google Sheets)
-│ └── admin-server # (Optional) Backend for admin-only APIs (if required)
-├── client # Frontend chatbot (React)
-├── server # Backend for chatbot + PDF RAG system (Node.js)
+ admin
+   =>admin-client # Admin login and form viewer (reads from Google Sheets)
+   =>admin-server # (Optional) Backend for admin-only APIs (if required)
+   
+ client # Frontend chatbot (React)
+ server # Backend for chatbot + PDF RAG system (Node.js)
 
 
 
